@@ -1,0 +1,487 @@
+@media (max-width: 920px) {
+  
+
+    div.banner {
+            margin-top: 0;
+    position: relative;
+    
+    background-size: cover;
+    }
+h1.footer-title {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(228, 188, 65);
+    line-height: 0.972;
+    text-align: center;
+}
+div.services-slider {
+    margin-left: 30px;
+}
+div.slick-track {
+    margin-left: -79px;
+}
+    .h1,
+    h1 {
+        font-size: 24px;
+    }
+
+    #navbar .container {
+        margin: 0;
+    }
+
+    main header {
+        
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+
+    div .banner-title {
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    div .banner-dec {
+        font-size: 14px;
+
+    }
+
+
+    .logo img {
+        width: 9%;
+    margin-left: 25px;
+    }
+
+    div.brand-logo-box {
+   
+    width: 225px;
+
+}
+    .h4,
+    h4 {
+        font-size: calc(1rem + .3vw);
+    }
+
+    div.User {
+        margin-top: -35px;
+    }
+
+    div .user-img img {
+
+        margin-bottom: 15px;
+    }
+
+    
+}
+@media (max-width: 919.9px){
+  
+}
+@media (max-width: 575.98px){
+        html,
+        body {
+        overflow-x: hidden;
+        }
+        }
+@media (max-width: 920px){
+    div.banner {
+    margin-top: 0;
+    position: relative;
+    height: 900px;
+    } 
+
+    div.banner .container {
+    bottom: 265px;
+}
+}
+@media (max-width: 1191.9px) {
+
+div.banner {
+    margin-top: 0;
+    position: relative;
+  
+}
+div.banner .container {  
+    
+}
+h1.banner-title {
+    font-size: 34px;   
+}
+
+div p,div .news-card p{
+    font-size: 12px;
+}
+h4.news-title {
+    font-size: 18px;
+    line-height: 25px;  
+}
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 375px) {}
+
+@media (min-width: 475px) {}
+@media (max-width: 575.98px){
+    section .wow{
+        visibility: visible !important;
+    }
+}
+@media (max-width: 575.98px) {
+    
+div.banner .container {
+ 
+    top: 60px;
+    bottom: 447px;
+    
+}
+div.slick-track {
+    margin-left: -42px;
+}
+.brand-logo-box img {
+    width: 100px;
+}
+.banner img{
+    
+}
+h4.form-title {
+    font-size: 15px;
+    
+}
+div.nice-select.form-control {
+    font-size: 12px;
+    line-height: 22px;
+    height: 40px;
+}
+div .btn-orange {
+    font-size: 14px;
+    padding: 10px 10px;
+   
+}
+div.form-section {
+    
+    padding: 15px;
+}
+h1.title-big {
+    font-size: 32px;
+}
+section.banner {
+    margin-top: 50px;
+    }
+div.brand-logo-box {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-sizing: border-box;
+    border-radius: 18px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    width: 150px;
+}
+div.about-video {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+}
+div.about-video img{
+    width: 45px;
+}
+div label {
+    font-size: 14px;
+    
+}
+
+footer h4 {
+    font-size: 12px;
+}
+
+    .logo img {
+        width: 12%;
+    margin-top: 0px;
+    }
+
+    
+
+    .h4,
+    h4 {
+        font-size: calc(.8rem + .3vw);
+    }
+
+    
+
+    .h5,
+    h5 {
+        font-size: 14px;
+    }
+
+   
+    div.banner {
+         margin-top: 50px;
+     height: 675px;
+    margin-bottom: 100px;
+    }
+
+    div.banner .container {
+        top: 5px;
+    }
+
+    div .banner-dec {
+        font-size: 12px !important;
+    }
+
+    .h1,
+    h1 {
+        font-size: 20px;
+    }
+
+
+
+    main header {
+        background-color: #fff;
+        box-shadow: 0px 5px 8px 2px rgb(95 107 229 / 20%);
+
+    }
+    
+    .nav-btn .small,
+    small {
+        font-size: 11px;
+        padding-left: 5px;
+    }
+
+    #navbar .container {
+        margin: 0;
+    }
+
+    .user-icon {
+        margin-bottom: 12px;
+    }
+
+    
+
+    h6 {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+ 
+
+    div .banner-title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    a.btn-orange,
+    a.btn-outline {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+   
+
+    div .title {
+        font-size: 28.667px;
+        line-height: 30px;
+    }
+.why-section h1 {
+    font-size: 14px;
+    
+}
+#Videos img {
+    height: 40px;
+    margin-bottom: 8px;
+}
+#Videos p{
+    font-size: 10px;
+    line-height: 13px;
+    font-weight: 600;
+}
+   h1.footer-title {
+    font-size: 40px;
+    
+}
+ul.social li {
+    display: inline-block;
+    margin-right: 8px;
+}
+ul.social li a img {
+    width: 25px;
+}
+    div.cart-title {
+        font-size: 20px;
+
+    }
+
+    div p {
+       font-size: 12px;
+    line-height: 20px;
+
+    }
+
+
+    
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 15px 5px;
+    }
+
+   
+    footer .col-lg-3 {
+        text-align: center;
+    }
+
+.logo {
+    width: 35%;
+}
+ul.social {
+    float: inherit;
+}
+
+    footer .center {
+        justify-content: center;
+    }
+
+    header.hs-menubar {
+        width: 100%;
+        height: 50px;
+        line-height: 42px;
+        border-bottom: 0;
+
+    }
+
+    div.menu-trigger {
+        top: 0;
+        font-size: 18px;
+    }
+
+    nav.hs-navigation {
+
+        top: 0px;
+
+    }
+
+    nav .nav-links .its-parent,
+    nav .nav-links li a {
+
+            font-size: 25px;
+    padding: 10px;
+  
+
+    }
+
+    nav.hs-navigation {
+        width: 100%;
+
+    }
+
+   
+footer .wow{
+    visibility: visible !important;
+}
+    
+
+    div.banner.sub-banner .container {
+
+        top: 0px;
+
+    }
+
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 1024px) {
+   
+
+    .small,
+    small {
+        font-size: 9px;
+    }
+
+    .h4,
+    h4 {
+        font-size: 17px;
+    }
+
+    .h2,
+    h2 {
+        font-size: calc(1.2rem + .9vw);
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 768px) {}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) {}
+
+@media all and (min-width: 860px) {
+   
+
+    .nav-links .its-parent,
+    .nav-links li a {
+
+        padding: 27px 14px;
+
+    }
+
+   
+
+
+}
+
+
+
+
+@media (min-width: 1366px) {
+   
+
+    .small,
+    small {
+        font-size: 12px;
+    }
+
+   
+    div p {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+  
+
+    .small,
+    small {
+        font-size: 12px;
+    }
+
+   
+
+    footer p {
+        font-size: 14px;
+    }
+
+}
+@media (min-width: 1920px){
+    .c-address {
+    padding-bottom: 350px;
+}
+}
