@@ -702,7 +702,8 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Enter Your name</label>
                                             <input type="text" class="form-control name" placeholder="Enter Name"
-                                                ng-model="name">
+                                                ng-model="name" onkeyup="name_function(this)">
+                                                <p style="color:red"id="msg_name"></p>
 
                                         </div>
                                     </div>
@@ -711,7 +712,8 @@
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Enter Mobile</label>
                                             <input type="number" class="form-control mobile"
-                                                placeholder="Enter your 10 digit mobile number" ng-model="mobile">
+                                                placeholder="Enter your 10 digit mobile number" ng-model="mobile" onkeyup="mobile_function(this)">
+                                                <p style="color:red"id="msg_mobile"></p>
 
                                         </div>
                                     </div>
@@ -720,7 +722,7 @@
                                     <div class="mb-1">
                                         <p style="color:green">{{nsucess_n }}</p>
                                         <p style="color:red">{{nerror_n}}</p>
-                                        <button ng-click="close_model()" class="btn-orange" id="submit_button">Submit </button>
+                                        <button class="btn-orange" id="submit_button">Submit </button>
                                     </div>
 
                                 </div>
@@ -813,11 +815,36 @@
     <script src="assets/script/globalUrl.js"></script>
 
     <script src="assets/script/servService.js"></script>
+<script>
+    function name_function(e) {
+            var name=$(e).val();
+            if(name.trim() == '')
+            {
+                $('#msg_name').html('Name field is required !');
+            }
+            else
+            {
+                 $('#msg_name').empty();
+            }
+        }
 
+         function mobile_function(e) {
+            var mobile=$(e).val();
+            if(mobile == '')
+            {
+                $('#msg_mobile').html('Mobile field is required !');
+            }
+            else
+            {
+                 $('#msg_mobile').empty();
+            }
+        }
+</script>
 
     <script>
+
         $(document).ready(function () {
-alert(1);
+
             // $('select').niceSelect();
             $('#submit_button').click(function () {                     
 
@@ -825,8 +852,22 @@ alert(1);
             var brand_name=$(".brand_name :selected").text();
             var model_name=$(".model_name :selected").text();
             var issue_name=$(".issue_name :selected").text();
+            
             var name=$('.name').val();
             var mobile=$('.mobile').val();
+            if(name.trim() == '')
+            {
+                
+                $('#msg_name').html('Name field is required !');
+            }
+            else if(mobile =='')
+            {
+               
+                $('#msg_mobile').html('Mobile field is required !');
+            }
+            else
+            {
+                 $('#exampleModal').modal('hide');
                 $.ajax({                    
                       url: "code.php",     
                       type: 'post', // performing a POST request
@@ -834,9 +875,18 @@ alert(1);
                       // dataType: 'json',                   
                       success: function(data)         
                       {
-                        
+                        if(data == 1)
+                        {
+                            alert("Mail send Successfull !");
+                        }
+                        else
+                        {
+                            alert("Somthing went worng !");
+                        }
                       } 
                     });
+            }
+        
             });
         });
     </script>
